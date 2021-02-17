@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap");
+* {
+  transition: all 0.1s ease-in;
+}
+.blog {
+  background-color: #b07cf7;
+  font-family: Raleway;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 5%;
+  padding-bottom: 10%;
+  height: 864px;
+}
+.blog-name {
+  font-family: Raleway;
+  font-size: 90px;
+  font-weight: 700;
+}
+.blog-description {
+  max-width: 563px;
+  width: 50%;
+  font-family: Raleway;
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+}
+.blog-articles {
+  display: flex;
+  max-width: 1170px;
+  width: 80%;
+  justify-content: space-between;
+  gap: 20px;
+}
+.article {
+  width: 370px;
+  height: 310px;
+  position: relative;
+}
+.article:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  background-color: #fbfbf7;
+}
+.first-article {
+  background: linear-gradient(
+      to bottom,
+      rgba(249, 249, 249, 0) 0%,
+      rgba(132, 129, 132, 0.01724439775910369) 58%,
+      rgba(8, 7, 8, 0.7203256302521008) 100%
+    ),
+    url("../images/first.png") no-repeat center;
+}
+.second-article {
+  background: linear-gradient(
+      to bottom,
+      rgba(249, 249, 249, 0) 0%,
+      rgba(132, 129, 132, 0.01724439775910369) 58%,
+      rgba(8, 7, 8, 0.7203256302521008) 100%
+    ),
+    url("../images/second.png") no-repeat center;
+}
+.third-article {
+  background: linear-gradient(
+      to bottom,
+      rgba(249, 249, 249, 0) 0%,
+      rgba(132, 129, 132, 0.01724439775910369) 58%,
+      rgba(8, 7, 8, 0.7203256302521008) 100%
+    ),
+    url("../images/third.png") no-repeat center;
+}
+.article__date {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: rgb(38, 38, 38, 0.5);
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25), 0 2px 4px rgba(0, 0, 0, 0.25);
+}
+.date {
+  font-family: Raleway;
+  font-size: 150%;
+  font-weight: 700;
+  text-align: left;
+  color: #ffffff;
+  text-align: center;
+}
+.article__headline {
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  position: absolute;
+  bottom: 60px;
+  left: 20px;
+  text-align: start;
+}
+.article__author {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 300;
+  float: left;
+  text-align: end;
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+}
+.blog-button {
+  width: 200px;
+  height: 55px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #f72b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.blog-button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.blog-button:hover {
+  background-color: #ffffff;
+  color: #f72b3b;
+  font-weight: 700;
+}
+.blog-button:hover a {
+  color: #f72b3b;
+  font-weight: 700;
+}
