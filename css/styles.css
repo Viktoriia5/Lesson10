@@ -12,8 +12,7 @@
   text-align: center;
   color: #ffffff;
   padding-top: 5%;
-  padding-bottom: 10%;
-  height: 864px;
+  padding-bottom: 5%;
 }
 .blog-name {
   font-family: Raleway;
@@ -27,6 +26,7 @@
   font-size: 17px;
   font-weight: 300;
   line-height: 25px;
+  padding: 3% 0;
 }
 .blog-articles {
   display: flex;
@@ -130,4 +130,18 @@
 .blog-button:hover a {
   color: #f72b3b;
   font-weight: 700;
+}
+.next {
+  width: 200px;
+  height: 55px;
+  border: 1px solid #f72b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: 10%;
+}
+.next a {
+  color: #ffffff;
+  text-decoration: none;
 }
