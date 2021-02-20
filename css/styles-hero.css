@@ -26,7 +26,7 @@ header {
   width: 80%;
   margin: 0 auto;
 }
-.hero-menu {
+.hero__menu {
   display: flex;
   align-items: center;
 }
@@ -40,7 +40,7 @@ header {
   font-weight: 700;
   max-width: 557px;
 }
-.menu-item {
+.menu__item {
   margin-right: 35px;
   padding: 1% 0 0 0;
   box-sizing: border-box;
@@ -53,7 +53,7 @@ a {
   text-decoration: none;
   color: #262626;
 }
-.menu-item:last-child {
+.menu__item:last-child {
   margin-right: 0;
 }
 .main {
@@ -64,7 +64,7 @@ a {
   height: 80%;
   padding: 15% 15% 15% 0;
 }
-.main-name {
+.main__name {
   font-family: Raleway;
   line-height: 25px;
   font-size: 60px;
@@ -105,22 +105,22 @@ button {
   height: auto;
   padding: 7% 0 7% 0;
 }
-.about-container {
+.about__container {
   display: flex;
   justify-content: space-between;
 }
 
-.about-picture {
+.about__picture {
   width: 566px;
   height: 559px;
   margin-left: -7%;
 }
-.description-name {
+.description__name {
   font-size: 90px;
   font-weight: 700;
   line-height: 27px;
 }
-.about-description {
+.about__description {
   width: 45%;
   display: flex;
   flex-direction: column;
