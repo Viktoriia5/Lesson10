@@ -111,11 +111,12 @@ button {
 }
 
 .about__picture {
+  display: flex;
   width: 566px;
   height: 559px;
-  margin-left: -7%;
 }
-.description__name {
+.description__name,
+.name {
   font-size: 90px;
   font-weight: 700;
   line-height: 27px;

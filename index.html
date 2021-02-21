@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/styles-hero.css" />
+    <link rel="stylesheet" href="css/styles-contact.css" />
     <title>Lesson 10</title>
   </head>
   <body>
     <!--HERO-->
     <section class="hero">
-      <div class="container">
+      <div class="hero-container container">
         <header class="header" id="myHeader">
           <div class="hero__logo"><img src="images/logo.png" alt="" /></div>
           <nav class="hero__menu">
@@ -46,8 +47,8 @@
           <img src="images/about-bg.png" alt="" />
         </div>
         <div class="about__description description">
-          <div class="description__name">About Us</div>
-          <div class="description__git text text">
+          <div class="description__name name">About Us</div>
+          <div class="description__git text">
             <p>
               Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
               exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -105,6 +106,68 @@
         <a href="https://viktoriia5.github.io/Lesson11a/">NEXT HOMEWORK</a>
       </div>
     </section>
+    <section class="contact-form">
+      <div class="contacn-form__container container">
+        <div class="contacn-form__name name">Contact</div>
+        <div class="contact-form__description">
+          For new projects, ideas, business or anything you'd like to discuss,
+          contact with me!
+        </div>
+        <div class="contact-form__block contact-block">
+          <div class="contact-block__form">
+            <form action="#">
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Auskteez Tran"
+              /><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email..."
+              /><br />
+              <input
+                type="tel"
+                id="tel"
+                name="tel"
+                placeholder="Your phone number..."
+              /><br />
+              <textarea
+                placeholder="Your phone number..."
+                name="form__message"
+                rows="40"
+                cols="50"
+              >
+                Your messge...
+                </textarea
+              >
+            </form>
+          </div>
+          <div class="contact-block__contacts">
+            <span class="bold">ADDRESS</span> <br />
+
+            123 City name, Street, City, Country <br /><br />
+            <span class="bold">EMAIL </span><br />
+            cahee@domain.com <br /><br />
+            <span class="bold">PHONE</span> <br />
+            +012 345 6789
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer__copyright">
+        &copy; 2015 Company. All right reserved.
+      </div>
+      <div class="footer__logo">
+        <img src="images/logo-small.png" alt="footer-logo" />
+      </div>
+      <div class="footer__creator">
+        Made with <span class="footer__creator-red">love</span> by Auskteez
+      </div>
+    </footer>
     <script>
       window.onscroll = function () {
         myFunction();
