@@ -1,0 +1,81 @@
+.gallery {
+  background-color: #ffe92f;
+  max-height: 1532px;
+  padding: 10% 0;
+}
+.services__description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.gallery__container{
+  width:117rem;
+  width:1170px;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.description__git {
+  width: 57.7rem;
+  max-width: 577px;
+}
+.container__row-first,
+.container__row-second {
+  display: flex;
+  gap: 3rem;
+}
+.peach {
+  background: url("../images/peach.png") no-repeat center;
+  background-size: cover;
+  width: 77rem;
+  height: 55rem;
+  max-width: 770px;
+  max-height: 550px;
+}
+.berries {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.bilberry {
+  background: url("../images/bilberry.png") no-repeat center;
+  background-size: cover;
+  width: 37rem;
+  height: 26rem;
+  max-width: 370px;
+  max-height: 260px;
+}
+.blackberry {
+  background: url("../images/blackberry.png") no-repeat center;
+  background-size: cover;
+  width: 37rem;
+  height: 26rem;
+  max-width: 370px;
+  max-height: 260px;
+}
+.container__row-second{
+  margin-top: 3rem;
+}
+.glass{
+  background: url("../images/glass.png")no-repeat center;
+  background-size: cover;
+  width: 57rem;
+height: 40rem;
+}
+.persimmon{
+  background: url("../images/percimmon.png")no-repeat center;
+  background-size: cover;
+  width: 57rem;
+height: 40rem;
+}
+.services__button button{
+  width: 20rem;
+height: 5.5rem;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+background-color: #5585a2;
+margin-top: 4.5rem;
+}

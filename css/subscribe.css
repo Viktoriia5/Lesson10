@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap");
+.subscribe {
+  background: url("../images/subscribe-bg.png") no-repeat center;
+  background-size: cover;
+    height: 50rem;
+  max-width: 1500px;
+  max-height: 500px;
+  margin: 0 auto;
+}
+.subscribe__container{
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
+.form__subscribe {
+  width: 17rem;
+  height: 5.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  background-color: #96b92c;
+  margin-bottom: 10%;
+}
+.container__name {
+  color: #262626;
+  font-family: Raleway;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: left;
+}
+.container__text{
+    max-width: 54.1rem;
+    margin:2% 0;
+}
+.subscribe__form input{
+    width: 57rem;
+    height: 5.5rem;
+    border: 1px solid #262626;
+    background-color: transparent;
+    margin-right: 3rem;
+}
+.subscribe__form input{
+    opacity: 0.5;
+color: #262626;
+font-family: Raleway;
+font-size: 15px;
+font-weight: 300;
+font-style: normal;
+letter-spacing: normal;
+line-height: 27px;
+}
